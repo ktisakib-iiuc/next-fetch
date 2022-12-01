@@ -1,3 +1,5 @@
+'use client'
+
 // client side rendered
 import { useEffect, useState } from 'react';
 
