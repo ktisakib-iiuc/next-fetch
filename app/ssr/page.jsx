@@ -1,5 +1,5 @@
 async function getData() {
-  const res = await fetch('https://6388341ed94a7e50409552be.mockapi.io/experimental/users', {cache: 'no-cache'});
+  const res = await fetch('https://6388341ed94a7e50409552be.mockapi.io/experimental/users', {cache: 'no-store'});
   return res.json();
 }
 
